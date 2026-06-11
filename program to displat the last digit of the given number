@@ -1,0 +1,3 @@
+x=int(input("Enter N:"))
+sum=x*(x + 1) // 2
+print("Sum =", sum)
