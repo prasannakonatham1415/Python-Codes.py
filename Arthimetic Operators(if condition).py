@@ -43,3 +43,70 @@ a = 5
 if a > 0:
     print((a ** 2) + (a ** 3))
 
+# program to swap 2 numbers
+a = 5
+b = 9
+if True:
+    a, b = b, a
+    print(a, b)
+
+# program to swap 2 numbers without third variable
+a = 5
+b = 9
+if a != b:
+    a = a + b
+    b = a - b
+    a = a - b
+    print("a =", a)
+    print("b =", b)
+
+# Calculate the area of triangle
+base = 15
+height = 7
+if base > 0 and height > 0:
+    Area = (base * height) / 2
+    print("Area =", Area)
+
+# calculate the time taken  using speed and distance
+speed = 67.5
+distance = 5.76
+if speed > 0:
+    print("The Time Taken =", distance / speed)
+
+# calculate the speed by using distance and time
+distance=45.9
+time=34.8
+if time > 0:
+   print("The Speed=",distance/time)
+
+# calculate the distance by using speed and time
+speed=56.8
+time=25.9
+if speed > 0 , time > 0:
+print("The Distance=",(speed*time))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
