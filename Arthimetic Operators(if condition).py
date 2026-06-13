@@ -39,9 +39,9 @@ if a > 0:
     print((a ** 2) + (a ** 3))
 
 # program to display the last digit of the given number
-a = 5
-if a > 0:
-    print((a ** 2) + (a ** 3))
+n = 2345
+if n > 0:
+    print("Last Digit =", n % 10)
 
 # program to swap 2 numbers
 a = 5
