@@ -58,3 +58,6 @@ for i in range(1,6):
 for i in range(1, 6):
     print(i,"x",i,"x",i,"=", i**3)
 
+# program to find the sum of first N numbers
+n = int(input("Enter N: "))
+print("Sum =",sum(range(1, n+1)))
