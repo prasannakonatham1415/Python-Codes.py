@@ -55,6 +55,6 @@ for i in range(1,6):
     print(i,"x",i,"=",i**2)
 
 # program to print cube values for numbers 1 to 5
-for i in range(1,6):
-    print(i,"x",i,"=",i**3)
+for i in range(1, 6):
+    print(i,"x",i,"x",i,"=", i**3)
 
