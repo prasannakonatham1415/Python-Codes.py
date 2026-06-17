@@ -175,9 +175,10 @@ print(second)
 n = 321875
 while n > 0:
     d = n % 10
-      i = 1
+    i = 1
     while i <= 10:
         print(d, "x", i, "=", d * i)
         i += 1
-       print()
+    print()
     n = n // 10
+
