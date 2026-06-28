@@ -81,6 +81,41 @@ print(arr[len(arr)//2])
 arr = [10, 20, 30, 40, 50, 60]
 print(arr[2] + arr[3])
 
+arr=[3,7,8,2,5,6,4]
+print(arr[::-1])
+
+arr=[3,7,8,2,5,6,4]
+total=0
+for i in arr:
+    total=total+i
+print("Sum of arr is=",total)
+
+arr=[3,7,8,2,5,6,4]
+for i in arr:
+    if i%2==0:
+        print(i,end=" ")
+
+arr=[3,7,8,2,5,6,4]
+total=0
+for i in arr:
+    if i%2==0:
+        total=total+i
+print(total)
+
+a=14
+b=16
+print("Before Swapping a=",a, "b=",b)
+temp=a
+a=b
+b=temp
+print("After Swapping a=",a,"b=",b)
+
+arr=[3,7,8,2,5,6,4]
+L=arr[0]
+for i in arr:
+    if i>L:
+        L=i
+print(L)
 
 
 
